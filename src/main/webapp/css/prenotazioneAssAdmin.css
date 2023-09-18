@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.formDati {
+			width:70%;
+			margin-top: 4%;
+			margin-left:15%;
+			border: solid 3px;
+			border-radius: 15px;
+			background-color: gray;
+		}
+		
+		.titleTable {
+			font-family: arial;
+			text-align: center;
+			margin-bottom: -3%;
+			color:red;
+		}
+		
+		.contaneir {
+			margin-top: 3%;
+			margin-left: 2%;
+			margin-right: 2%;
+			margin-bottom: 2%;
+		}
+		
+		.head {
+			color: red;
+		}
+		
+		input[type=datetime-local] {
+			margin-right: 12%;
+		}
+		
+		
+		label {
+    		display: block;
+    		font: 1rem 'Fira Sans', sans-serif;
+		}
+
+		input,
+		label {
+    		margin: .4rem 0;
+		}
+		
+		#imgCampo {
+			border-radius: 50%;
+		}

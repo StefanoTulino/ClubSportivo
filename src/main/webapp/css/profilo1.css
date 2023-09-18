@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.demo-wrap {
+  			overflow: hidden;
+  			width: 100%;
+  			height: 100%;
+  			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			}
+			
+		.demo-bg {
+		  opacity: 0.2;
+		  position: absolute;
+		  left: 0;
+		  top: 7%;
+		  width: 100%;
+		  height: auto;
+			}
+			
+		.labelChangePassword {
+			color:red;
+		}
+		
+		
+		h2 {
+			text-align: center;
+			color: red;
+		}
+		
+		.card {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		  max-width: 55%;
+		  margin-bottom: 20%;
+		  height: 600px;
+		  margin: auto;
+		  text-align: center;
+		  font-family: arial;
+		}
+		
+		p {
+			font-family: arial;
+		}

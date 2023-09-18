@@ -1,0 +1,104 @@
+body {
+		font-family: Arial, Helvetica, sans-serif;
+	 }
+		
+		
+		.containerFormLogin {
+		    margin-left:20%;
+			margin-right:20%;
+		
+		}
+		
+		.modalLogin {
+			width: 40%;
+			height: 60%;
+			padding-top: 10%;
+			margin-left:30%;
+			/* background-color: rgba(0, 0, 0, 0.4); */
+		}
+		
+		
+		#btnLogin {
+			position: absolute;
+			right: 12%;
+			padding: 5px 7px;
+			border-radius: 10px;
+			display:flex;
+			background-color: #4CAF50;
+		}
+		
+		
+		
+		#emailLogin  {
+			margin-left: 26px;
+		}
+		
+		#passwordLogin  {
+			margin-left: 29px;
+		}
+		
+		#loginPsw  {
+			margin-left: 26px;
+		}
+		
+		
+		#btnLoginForm {
+			border-radius: 30px;
+			margin: 10% 0 15% 25%;
+			width: 50%;
+			background-color: #4CAF50;
+			cursor:pointer;
+		}
+		
+		
+		.close {
+			position: absolute;
+			right: 25px;
+			top: 0px;
+			color: #000;
+			font-size: 35px;
+			font-weight: bold;
+		}
+		
+		
+		.modalLogin {
+			width: 40%;
+			height: 60%;
+			padding-top: 10%;
+			margin-left:30%;
+			/* background-color: rgba(0, 0, 0, 0.4); */
+		}
+		
+		
+		.modal-content {
+			border: 15px solid 10px black;
+		}
+		
+
+		
+		/* Add zoom animation */
+		.animate {
+			-webkit-animation: animatezoom 0.6s;
+			animation: animatezoom 0.6s
+		}
+		
+		@-webkit-keyframes animatezoom {
+			from {
+			-webkit-transform: scale(0);
+				}
+		
+		to {
+			-webkit-transform: scale(1);
+		}
+		
+		}
+		@keyframes animatezoom {
+			from {transform: scale(0);
+		}
+		
+		to {
+			transform: scale(1);
+		}
+		
+	}	
+		

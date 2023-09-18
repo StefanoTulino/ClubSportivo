@@ -1,0 +1,131 @@
+/*	
+		PROBLEMA CON L'IMMAGINE, spostato nell'header in css ma non attuato per vari problemi!!!!
+		.contaneir {
+			position: relative;
+			width: 100%;
+			
+			background: url("../img/background-Sito.jpg") no-repeat fixed;
+			margin: 10% 00px 00px 00px;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+---------------------------------------------------------------------  */		
+
+	.contaneir {
+			position: absolute;
+			width: 100%;
+			background: url("../img/background-Sito.jpg") no-repeat fixed;
+			/* /WebApp-progFinale-UnitiPerLoSport2/src/main/webapp/img/background-Sito.jpg */
+			margin: 00px 00px 00px 00px;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+
+
+
+#warning span {
+			cursor: pointer;
+			color:red;
+			font-weight: 900;
+		}
+		
+		
+.immagini {
+			margin-top: 3%;
+			display: flex;
+  			justify-content: center;
+			height: 40%;
+			padding: 10px 10px;
+			/* background-color: #FAEBD7; */
+		}
+
+#titleDiv {
+			color: red;
+			text-align: center;
+		}
+		
+		#titleDivGallery {
+			margin-bottom: 1%;
+			color: red;
+			text-align: center;
+		}
+		
+		.notizie {
+			margin-right: 5%;
+			margin-bottom: 15%;
+			margin-top: 5%;
+			background-color: #F0F8FF;
+			float: right;
+			width: 45%;
+			height: 35%;
+			padding: 0 20px;
+		}
+		
+		.campi {
+			margin-left: 5%;
+			margin-bottom: 15%;
+			margin-top: 5%;
+			background-color: #F0F8FF;
+			float: left;
+			width: 44%;
+			height: 35%;
+			padding: 0 20px;
+		}
+		
+		
+		
+.w3-container {
+			margin-top:5%;
+		}
+
+		
+		
+		
+		
+		.w3-left, .w3-right, .w3-badge {
+			cursor:pointer
+		}
+		.w3-badge {
+			height:13px;width:13px;padding:0
+		}
+		
+
+			.w3-content {
+				max-width: 60%;
+				margin-top: 2%;
+				display: flex;
+  				justify-content: center;
+			}
+			
+			
+			.mySlides {
+				width: 550px;
+				height: 400px;
+			}	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

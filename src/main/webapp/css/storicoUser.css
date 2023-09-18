@@ -1,0 +1,93 @@
+
+.contaneir-flex {
+	
+	/* background-color: #afafaf; */
+	margin: 2% 4% 2% 5%;
+	display: flex;
+	/*Allinea i flex item all'interno del contenitore al centro*/
+	justify-content: space-around;
+	/*Permette di andare a capo dopo un tot di items*/
+	flex-wrap: wrap;
+	
+	/* border: 6px solid #4CAF50; */
+}
+
+
+
+#items {
+	width: 18%;
+	height: 12%;
+	margin: 2%;
+	justify-content: space-between;
+}
+
+
+#id01 {
+	border: 10px solid #4CAF50;
+}
+
+
+.id02-lista  {
+	margin: 4% 2%;
+	background-color: #dedede;
+	border: 10px solid #4CAF50;
+}
+
+.id02-lista #matchSquadra {
+	margin: 1% 2%;
+	color: #4CAF50;	
+}
+
+h6 {
+	margin: 1% 2%;
+}
+
+
+.btnSquadre {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+#btnTorneoEliminazione {
+	margin: 5px 5px;
+	background-color: gray;
+	border-radius: 8px;
+	text-decoration: none;
+	color:white;
+	cursor: none;
+	max-width: 55%;
+	padding: 10px 10px;
+	
+}
+
+.contaneir-flex1 {
+	margin: 0% 0%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+.nameTeam {
+	text-align: center;
+}
+
+.titleTable {
+	height: 5%;
+	background-color: gray;
+}
+
+.squadraStyle {
+	background-color: red;
+	padding: 5px 2px;
+	border-radius: 12px;
+	color: white;
+}

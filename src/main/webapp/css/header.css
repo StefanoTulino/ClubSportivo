@@ -1,0 +1,20 @@
+/* 
+	PROBLEMA CON L'IMMAGINE, questa faceva parte dell'homePage.jsp --> VEDEREEEE
+		.contaneir {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: url("../img/background-Sito.jpg") no-repeat fixed;
+			margin: 00px 00px 00px 00px;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover; 
+		}
+
+-------------------------------NON TOCCARE O ADD CSS, SI SCOMBINA TUTTO-----------
+-------------QUI STA IL PROBLEMA!!!------------------------------------------------------------- 
+*/
